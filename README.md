@@ -1,6 +1,6 @@
 <div align="center">
     
-## HOUSE KEEPING - 우리들의 든든한 자취 메이트
+## 🏠 HOUSE KEEPING - 우리들의 든든한 자취 메이트
 
 <!-- logo -->
 <img src="readme skill icons/house.png?raw=true" width="400"/>
@@ -10,12 +10,6 @@
 ### 프로젝트 개요 및 동기
 1인 가구수가 증가함에 따라 자취 생활이 미숙하여 어려움을 겪는 가구 또한 증가하고 있다.
 살아가는데 필수적인 3가지 요소인 의,식,주를 통합 관리하는 웹 애플리케이션을 개발하였다.
-- 프로젝트 소개
-- 개발 기간
-- 팀원
-- 기술 스택
-- 구현 기능
-- 화면 구성
 
 <br />
 
@@ -125,11 +119,43 @@
 
 ### :desktop_computer: 화면 구성
 
-|로그인|마이페이지|
-|:---:|:---:|
-|<img src="readme skill icons/로그인.png?raw=true" width="350">|<img src="readme skill icons/로그인.png?raw=true" width="350">|
-|화면에 대한 설명을 입력합니다.|화면에 대한 설명을 입력합니다.|
+|로그인, 회원가입|
+|:---:|
+|<img src="readme skill icons/로그인.png?raw=true" width="250"><img src="readme skill icons/최초가입 추가정보 입력.png?raw=true" width="250"><img src="readme skill icons/최초가입 방 설정.png?raw=true" width="250">|
+|SNS 회원가입 후 최초가입시 추가 정보 입력, 3D 내 방 꾸미기|
 
+|마이페이지|
+|:---:|
+|<img src="readme skill icons/마이페이지.png?raw=true" width="250"><img src="readme skill icons/마이페이지(내정보 수정).png?raw=true" width="250"><img src="readme skill icons/마이페이지(친구관리).png?raw=true" width="250"><img src="readme skill icons/마이페이지(방명록 보관함).png?raw=true" width="250"><img src="readme skill icons/마이페이지(설정).png?raw=true" width="250"><img src="readme skill icons/마이페이지(회원탈퇴).png?raw=true" width="250">|
+|마이페이지 청소 달성률 기반 경험치 레벨업 기능, 내 정보 수정, 친구 관리, 방명록 보관함, 설정, 회원탈퇴|
 
+|메인, 친구방|
+|:---:|
+|<img src="readme skill icons/메인화면.png?raw=true" width="250"><img src="readme skill icons/메인화면(푸터 루미 눌렀을때).png?raw=true" width="250"><img src="readme skill icons/친구추가.png?raw=true" width="250"><img src="readme skill icons/친구방.png?raw=true" width="250"><img src="readme skill icons/친구방 방명록.png?raw=true" width="250"><img src="readme skill icons/친구방 방명록 작성모달.png?raw=true" width="250">|
+|메인화면 친구 리스트, 실시간 접속 확인, 각 방별 루틴 확인, 청결도 확인, 친구 추가, 친구방 방문, 친구방 방명록 작성|
 
+|채팅|
+|:---:|
+|<img src="readme skill icons/채팅.png?raw=true" width="250"><img src="readme skill icons/채팅 추가.png?raw=true" width="250"><img src="readme skill icons/채팅방.png?raw=true" width="250">|
+|친구와 채팅, 단체 채팅 가능|
+
+|냉장고|
+|:---:|
+|<img src="readme skill icons/냉장고.png?raw=true" width="250"><img src="readme skill icons/냉장고(리스트).png?raw=true" width="250"><img src="readme skill icons/냉장고(재료등록 확인).png?raw=true" width="250"><img src="readme skill icons/냉장고(재료 세부정보).png?raw=true" width="250"><img src="readme skill icons/냉장고(레시피 검색).png?raw=true" width="250"><img src="readme skill icons/냉장고(추천 레시피).png?raw=true" width="250">|
+|냉장고 카테고리별 재료 확인, 재료 등록, 재료 세부정보, 레시피 검색, AI 레시피 추천|
+
+|옷장|
+|:---:|
+|<img src="readme skill icons/옷장.png?raw=true" width="250"><img src="readme skill icons/옷장(등록).png?raw=true" width="250"><img src="readme skill icons/옷장(리스트).png?raw=true" width="250"><img src="readme skill icons/옷장(옷 세부정보).png?raw=true" width="250"><img src="readme skill icons/옷장(추천).png?raw=true" width="250">|
+|옷장 카테고리별 옷 등록, 옷 확인, 머신러닝을 통한 옷 인식 및 종류, 색상, 소재, 계절 구분 후 세탁 방법 추천, 날씨에 따른 옷 조합 추천|
+
+|팁|
+|:---:|
+|<img src="readme skill icons/팁.png?raw=true" width="250"><img src="readme skill icons/팁 게시판.png?raw=true" width="250"><img src="readme skill icons/팁 게시글 작성.png?raw=true" width="250"><img src="readme skill icons/팁 게시글 내용.png?raw=true" width="250">|
+|팁 게시판, 카테고리별 게시글 작성, 댓글 작성|
+
+|캘린더, 루틴|
+|:---:|
+|<img src="readme skill icons/캘린더.png?raw=true" width="250"><img src="readme skill icons/루틴.png?raw=true" width="250"><img src="readme skill icons/루틴 추가.png?raw=true" width="250"><img src="readme skill icons/루틴 세부정보.png?raw=true" width="250"><img src="readme skill icons/주간루틴설정.png?raw=true" width="250"><img src="readme skill icons/월간루틴설정.png?raw=true" width="250">|
+|날짜별 루틴 완료여부 표시, 루틴 추가, 각 방별 루틴 생성, 일간, 주간, 월간 루틴 설정|
 
