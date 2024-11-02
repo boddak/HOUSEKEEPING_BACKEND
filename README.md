@@ -1,49 +1,99 @@
-# 🏠HouseKeeping - 우리들의 든든한 자취 메이트
-### NaverCloud Devops 10th : 3 TEAM ROOM-E
+<div align="center">
+    
+## HOUSE KEEPING - 우리들의 든든한 자취 메이트
 
-<p align="center">
-  <br>
-  <img src="./readme_asset/common/housekeeping_logo.png">
-  <br>
-</p>
+<!-- logo -->
+<img src="readme skill icons/house.png?raw=true" width="400"/>
+</div> 
 
-## ✏️ 프로젝트 소개
+## 📝 프로젝트 소개
+### 프로젝트 개요 및 동기
+1인 가구수가 증가함에 따라 자취 생활이 미숙하여 어려움을 겪는 가구 또한 증가하고 있다.
+살아가는데 필수적인 3가지 요소인 의,식,주를 통합 관리하는 웹 애플리케이션을 개발하였다.
+- 프로젝트 소개
+- 개발 기간
+- 팀원
+- 기술 스택
+- 구현 기능
+- 화면 구성
 
-### 프로젝트 개요/동기
-</p>
-1인가구수가 급격히 증가함에 따라 자취 생활이 미숙하여 어려움을 겪는 가구또한 증가하고 있다.<br>
-이에 바탕하여 의식주를 통합관리하는 웹 애플리케이션 개발을 고안하였다.
+<br />
 
-<p align="center">
+## 📅 개발 기간 
+- #### 2024.07.22(월) ~ 2024.08.23(금)
 
-</p>
+- #### 1주차 : 프로젝트 계획, 상세분석
+- #### 2주차 : UI, DB 구조 설계, 백엔드 개발시작
+- #### 3주차 : DB연결 및 기능구현, 단위테스트
+- #### 4주차 : 프로젝트 기능별 병합과 정리
+- #### 5주차 : 불용코드 제거, 프로젝트 최종테스트
 
-<br>
+<br />
 
-## 🔧 기술 스택
+## 💁‍♂️ 팀원
+|최시호|강현욱|엄지훈|
+|:---:|:---:|:---:|
+| <img src="readme skill icons/1.png?raw=true" width="100"> | <img src="readme skill icons/2.png?raw=true" width="100"> | <img src="readme skill icons/3.png?raw=true" width="100"> |
+|<ul><li>머신러닝을 활용한 의로 분류 모델 개발 및 기능 구현</li><li>OCR 활용한 영수증 인식 기능 구현</li><li>프로젝트 레포지토리 구축</li></ul>|<ul><li>프로젝트 Security 담당</li><li>SNS 로그인 서비스</li><li>ADMIN TIP 게시판 구현</li><li>SNS 로그인 서비스</li><li>계정 레벨 및 경험치 구현</li><li>프로젝트 빌드 컨트롤</li></ul>|<ul><li>네이버 클라우드를 활용한 프로젝트 배포</li><li>친구 채팅 기능 구현</li><li>Entity 설계</li><li>실시간 온라인 친구 표시</li></ul>|
 
-| JavaScript |   Python  |   Spring   |     Java     |   Html   |  Node   |  Json   |   JQuery  |  MySQL  |   MongoDB  |
-| :--------: |:---------:| :--------: | :----------: | :------: | :-----: | :-----: | :-------: | :-----: | :--------: |
-|   ![js]    | ![python] |  ![spring] |   ![java]    | ![html]  | ![node] | ![json] | ![jquery] | ![mysql]| ![mongodb] |
+|이호준|김상우|문재영|
+|:---:|:---:|:---:|
+| <img src="readme skill icons/4.png?raw=true" width="100"> | <img src="readme skill icons/5.png?raw=true" width="100"> | <img src="readme skill icons/7.png?raw=true" width="100"> |
+|<ul><li>옷장 기능 구현</li><li>날씨 API 활용 옷 추천 기능 구현</li><li>방 오염도 기능 구현</li><li>Object Storage 활용</li><li>Flask 서버 구축</li><li>프로젝트 회의 및 진행사항 관리</li></ul>|<ul><li>게시판 CRUD 구현</li><li>조회수 및 댓글 기능 구현</li><li>API를 활용한 SMS알림 구현</li><li>Clova를 활용한 AI레시피 제작 구현</li></ul>|<ul><li>친구 추가, 삭제, 관리 기능 구현</li><li>캘린더 기능 구현</li><li>루틴 기능 구현</li></ul>|
 
-<br><br>
-## 💻 IDE
+|강보현|
+|:---:|
+| <img src="readme skill icons/6.png?raw=true" width="100"> |
+|<ul><li>전체 프론트엔드 아키텍처 설계 및 구현</li><li>UI/UX 설계</li><li>React, Vite, CSS, JavaScript 등을 사용한 웹 애플리케이션 제작</li></ul>|
 
-|   IntelliJ  |   Eclipse   |  VScode   |
-| :---------: | :---------: | :-------: |
-| ![intellij] |  ![eclipse] | ![vscode] |
+<br />
 
-<br><br>
+## ⚙ 기술 스택
+### Dev Tool
 
-## 🧑‍🤝‍🧑 협업 도구
+| IntelliJ | VsCode | POSTMAN | Gradle | Vim |  
+| :--------: |:--------:| :--------: | :--------: | :--------: |
+| <img src="readme skill icons/Idea-Dark.svg?raw=true" width="60"> | <img src="readme skill icons/VSCode-Dark.svg?raw=true" width="60"> | <img src="readme skill icons/Postman.svg?raw=true" width="60"> | <img src="readme skill icons/Gradle-Dark.svg?raw=true" width="60"> | <img src="readme skill icons/VIM-Light.svg?raw=true" width="60"> |
 
-|    Git     |    Slack   |   Notion  |   Figma   |
-| :--------: | :--------: | :-------: | :-------: |
-|   ![git]   |  ![slack]  | ![notion] | ![figma]  |
+### FrameWork
 
-<br><br>
+| Spring Boot |  
+| :--------: |
+| <img src="readme skill icons/Spring-Light.svg?raw=true" width="60"> |
 
-## ⚡ 구현 기능
+### Front-End
+
+| Html | CSS | JavaScript | React | Vite | Three.js | 
+| :--------: |:--------:| :--------: | :--------: | :--------: | :--------: |
+| <img src="readme skill icons/HTML.svg?raw=true" width="60"> | <img src="readme skill icons/CSS.svg?raw=true" width="60"> | <img src="readme skill icons/JavaScript.svg?raw=true" width="60"> | <img src="readme skill icons/React.svg?raw=true" width="60"> | <img src="readme skill icons/Vite-Dark.svg?raw=true" width="60"> | <img src="readme skill icons/ThreeJS-Light.svg?raw=true" width="60"> |
+
+### Back-End
+
+| Java | Python | Node.js | Json | JQuery | TensorFlow | 
+| :--------: |:--------:| :--------: | :--------: | :--------: | :--------: |
+| <img src="readme skill icons/Java-Light.svg?raw=true" width="60"> | <img src="readme skill icons/Python-Dark.svg?raw=true" width="60"> | <img src="readme skill icons/NodeJS-Light.svg?raw=true" width="60"> | <img src="readme skill icons/JSON_vector_logo.svg?raw=true" width="60"> | <img src="readme skill icons/JQuery.svg?raw=true" width="60"> | <img src="readme skill icons/TensorFlow-Light.svg?raw=true" width="60"> |
+
+### DB
+
+| MySQL |
+| :--------: |
+| <img src="readme skill icons/MySQL-Dark.svg?raw=true" width="60"> | 
+
+### Server
+
+| Jenkins | Docker |
+| :--------: | :--------: |
+| <img src="readme skill icons/Jenkins-Dark.svg?raw=true" width="60"> | <img src="readme skill icons/Docker.svg?raw=true" width="60"> | 
+
+### Collaboration Tool
+
+| Git | Github | Slack | Notion | Figma |
+| :--------: | :--------: | :--------: | :--------: | :--------: |
+| <img src="readme skill icons/Git.svg?raw=true" width="60"> | <img src="readme skill icons/Github-Dark.svg?raw=true" width="60"> | <img src="readme skill icons/slack-new-logo.svg?raw=true" width="60"> | <img src="readme skill icons/Notion-logo.svg?raw=true" width="60"> | <img src="readme skill icons/Figma-Dark.svg?raw=true" width="60"> | 
+
+<br />
+
+## :zap: 구현 기능
 
 #### - 회원가입/로그인시 세션하이재킹등 해킹을 방지하기 위한 보안 요구사항을 만족시킨다.
 
@@ -71,73 +121,15 @@
 
 #### - 유통기한 임박 및 TO DO 미완료시 SMS 알림 기능을 제공한다.
 
-<br>
+<br />
 
-## 🐼 DEVELOPER
+### :desktop_computer: 화면 구성
 
-#### KitsuneSiho (팀장) : 머신러닝 분류 모델 개발, OCR 기능 구현, Git&Repository 관리
-#### HarryKang (Back-End) : Setting up project security, SNS Login Service, 계정 레벨 및 경험치 구현, Project Build Control
-#### JIHOON (Full-Stack) : NCP 를 활용한 Project Deploy, Chat Service, Entity 설계, Real-time online status display, Intro Anim및 Load Anim 제작
-#### SangWoo (Back-End) : 게시판 CRUD 구현, 조회수 및 댓글기능, SMS Alert, CLOVA AI 레시피 추천
-#### boddak (Front-End) : UI/UX 설계, 전체 프론트엔드 아키텍처 설계 및 구현, React, Vite, CSS, JavaScript 등을 사용한 웹 페이지 제작
-#### Hojun (Back-End) : 옷장/옷추천 기능 구현, Weather API, 방 오염도 기능, ObjectStorage, FLASK SERVER, 프로젝트 회의 및 진행사항 관리, 트러블 슈팅
-#### Jaeyoung (Back-End) : TO DO 루틴 기능, Calander, 친구 요청 및 관리, 방명록 구현
-
-</p>
-
-<br>
-
-## 📅 개발 기간 
-- #### 2024.07.22(월) ~ 2024.08.23(금)
-
-- #### 1주차 : 프로젝트 계획, 상세분석
-- #### 2주차 : UI, DB 구조 설계, 백엔드 개발시작
-- #### 3주차 : DB연결 및 기능구현, 단위테스트
-- #### 4주차 : 프로젝트 기능별 병합과 정리
-- #### 5주차 : 불용코드 제거, 프로젝트 최종테스트
-
-<br>
-
-## 📜 라이센스
-MIT License
-
-Copyright (c) 2021 Othneil Drew
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+|로그인|마이페이지|
+|:---:|:---:|
+|<img src="readme skill icons/로그인.png?raw=true" width="350">|<img src="readme skill icons/로그인.png?raw=true" width="350">|
+|화면에 대한 설명을 입력합니다.|화면에 대한 설명을 입력합니다.|
 
 
-<!-- Stack Icon Refernces -->
 
-[js]: /readme_asset/stack/javascript.svg
-[spring]: /readme_asset/stack/spring.svg
-[java]: /readme_asset/stack/java.svg
-[html]: /readme_asset/stack/html.svg
-[node]: /readme_asset/stack/node.svg
-[json]: /readme_asset/stack/json.svg
-[jquery]: /readme_asset/stack/jquery.svg
-[mysql]: /readme_asset/stack/mysql.svg
-[mongodb]: /readme_asset/stack/mongodb.svg
-[intellij]: /readme_asset/stack/intellij.svg
-[eclipse]: /readme_asset/stack/eclipse.svg
-[vscode]: /readme_asset/stack/vscode.svg
-[git]: /readme_asset/stack/git.svg
-[notion]: /readme_asset/stack/notion.svg
-[figma]: /readme_asset/stack/figma.svg
-[slack]: /readme_asset/stack/slack.svg
-[python]: /readme_asset/stack/python.svg
+
